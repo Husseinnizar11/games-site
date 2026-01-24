@@ -6,60 +6,7 @@
   <title>ulps2</title>
   <style>
     
-    .neon-item{
-  position: relative;
-  background: #ecf0f3;
-  border-radius: 14px;
-  overflow: hidden;
-  z-index: 1;
-}
-
-/* إطار نيون */
-.neon-item::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 3px;
-  border-radius: 14px;
-
-  background: linear-gradient(
-    270deg,
-    #ff0080,
-    #ff8c00,
-    #ffe600,
-    #00ff88,
-    #00cfff,
-    #7a00ff,
-    #ff0080
-  );
-
-  background-size: 400%;
-  animation: neonMove 6s linear infinite;
-
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-}
-
-@keyframes neonMove{
-  0%{background-position:0%}
-  100%{background-position:400%}
-}
-
-    .tiktok i{
-  color:#00f2ea;
-}
-
-.instagram i{
-  color:#e1306c;
-}
-
-.youtube i{
-  color:#ff0000;
-}
-
+    
 .media_icons a:hover i{
   filter: drop-shadow(0 0 8px currentColor);
 }
@@ -603,7 +550,61 @@
       <button class="search-button"><i class="fas fa-search"></i></button>
     </div>
   </div>
-  
+ <style> 
+  .neon-item{
+  position: relative;
+  background: #ecf0f3;
+  border-radius: 14px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* إطار نيون */
+.neon-item::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: 14px;
+
+  background: linear-gradient(
+    270deg,
+    #ff0080,
+    #ff8c00,
+    #ffe600,
+    #00ff88,
+    #00cfff,
+    #7a00ff,
+    #ff0080
+  );
+
+  background-size: 400%;
+  animation: neonMove 6s linear infinite;
+
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+@keyframes neonMove{
+  0%{background-position:0%}
+  100%{background-position:400%}
+}
+
+    .tiktok i{
+  color:#00f2ea;
+}
+
+.instagram i{
+  color:#e1306c;
+}
+
+.youtube i{
+  color:#ff0000;
+}
+  </style>
   <div class="top-right-buttons">
     <label class="top-right-button" onclick="toggleDarkMode()">
       <i class="fas fa-moon"></i>
@@ -902,6 +903,7 @@
 </body>
 
 </html>
+
 
 
 
