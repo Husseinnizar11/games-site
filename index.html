@@ -553,147 +553,133 @@
   
   <input type="checkbox" id="check">
   <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
-  
-<div class="side_bar">
+  <div class="side_bar">
   <div class="title">
     <div class="logo">ULPS2</div>
-    <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
+    <label class="button cancel"><i class="fas fa-times"></i></label>
   </div>
-  
+
   <ul>
     <li><a href="#"><i class="fas fa-qrcode"></i><span>PS2 Games</span></a></li>
     <li><a href="#"><i class="fas fa-mobile-alt"></i><span>APK App</span></a></li>
     <li><a href="#"><i class="fas fa-gamepad"></i><span>APK Games</span></a></li>
     <li><a href="#"><i class="fas fa-calendar-week"></i><span>Mario Maker Stages</span></a></li>
   </ul>
-  
+
   <div class="media_icons">
-    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
     <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
   </div>
 </div>
 
 <style>
+/* ===== Sidebar ===== */
 .side_bar {
   width: 250px;
-  background-color: #ffffff;
-  color: #000;
+  background: #111;
+  color: #fff;
   padding: 20px;
   direction: rtl;
   text-align: right;
   font-family: Arial, sans-serif;
 }
 
-/* ===== العنوان ===== */
-.side_bar .title {
+/* ===== Title ===== */
+.title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.side_bar .logo {
+.logo {
   font-size: 24px;
   font-weight: bold;
+  color: #fff;
 }
 
-/* ===== القائمة ===== */
-.side_bar ul {
+/* ===== Menu ===== */
+ul {
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 25px 0;
 }
 
-.side_bar ul li {
-  margin: 15px 0;
+ul li {
+  margin: 16px 0;
 }
 
-/* ===== العنصر مع تدرج متحرك ===== */
-.side_bar ul li a {
+/* ===== Button ===== */
+ul li a {
   position: relative;
   background: #fff;
-  color: #000; /* الكتابة سوداء */
+  color: #000 !important;   /* حل المشكلة */
+  padding: 14px 16px;
+  border-radius: 12px;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 16px;
-  padding: 12px 15px;
-  border-radius: 10px;
   overflow: hidden;
   z-index: 1;
 }
 
-/* الإطار المتدرج */
-.side_bar ul li a::before {
+ul li a span,
+ul li a i {
+  color: #000 !important;   /* إجبار النص والأيقونات */
+}
+
+/* ===== Animated Gradient Border ===== */
+ul li a::before {
   content: "";
   position: absolute;
-  inset: -2px;
+  inset: 0;
+  padding: 2px;
+  border-radius: 12px;
   background: linear-gradient(
     270deg,
-    #ff004c,
-    #ff9900,
-    #00ffcc,
-    #0066ff,
-    #cc00ff,
-    #ff004c
+    #00ff99,
+    #ffcc00,
+    #ff6600,
+    #ff0066,
+    #00ff99
   );
   background-size: 400% 400%;
-  animation: gradientMove 5s linear infinite;
-  z-index: -2;
-  border-radius: 12px;
+  animation: gradientMove 6s linear infinite;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
 }
 
-/* طبقة داخلية بيضاء */
-.side_bar ul li a::after {
-  content: "";
-  position: absolute;
-  inset: 2px;
-  background: #ffffff;
-  border-radius: 8px;
-  z-index: -1;
-}
-
-.side_bar ul li a i {
-  font-size: 20px;
-  min-width: 25px;
-  text-align: center;
-}
-
-/* ===== حركة التدرج ===== */
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   100% { background-position: 400% 50%; }
 }
 
-/* ===== أيقونات التواصل ===== */
-.side_bar .media_icons {
+/* ===== Social Icons ===== */
+.media_icons {
   display: flex;
-  justify-content: flex-start;
   gap: 15px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
-.side_bar .media_icons a {
-  font-size: 25px;
+.media_icons a {
+  font-size: 26px;
   transition: transform 0.2s;
 }
 
-.side_bar .media_icons a:hover {
+.media_icons a:hover {
   transform: scale(1.2);
 }
 
-.side_bar .media_icons a.instagram i {
-  color: #E1306C;
-}
-
-.side_bar .media_icons a.youtube i {
-  color: #FF0000;
-}
-
-.side_bar .media_icons a.tiktok i {
+.instagram i { color: #E1306C; }
+.youtube i { color: #FF0000; }
+.tiktok i {
   color: #69C9D0;
-  text-shadow: 1px 0 #EE1D52, -1px 0 #000000;
+  text-shadow: 1px 0 #EE1D52, -1px 0 #000;
 }
 </style>
   
@@ -969,6 +955,7 @@
 </body>
 
 </html>
+
 
 
 
