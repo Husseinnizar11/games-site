@@ -926,31 +926,36 @@ body.dark-mode .side_bar ul a{
 
   
   <script>
-const sidebar = document.querySelector(".side_bar");
-const menuButton = document.querySelector(".bars");
-const checkbox = document.getElementById("check");
+document.addEventListener("DOMContentLoaded", function () {
 
-/* منع انتشار الضغط داخل القائمة */
-sidebar.addEventListener("click", function (e) {
-  e.stopPropagation();
-});
+  const sidebar = document.querySelector(".side_bar");
+  const menuButton = document.querySelector(".bars");
+  const checkbox = document.getElementById("check");
 
-/* منع انتشار الضغط على زر القائمة */
-menuButton.addEventListener("click", function (e) {
-  e.stopPropagation();
-});
+  if (!sidebar || !menuButton || !checkbox) return;
 
-/* إغلاق القائمة عند الضغط خارجها */
-document.addEventListener("click", function () {
-  if (checkbox.checked) {
-    checkbox.checked = false;
-  }
+  /* منع الإغلاق عند الضغط داخل القائمة */
+  sidebar.addEventListener("click", function (e) {
+    e.stopPropagation();
+  });
+
+  /* منع الإغلاق عند الضغط على زر القائمة */
+  menuButton.addEventListener("click", function (e) {
+    e.stopPropagation();
+  });
+
+  /* الإغلاق عند الضغط خارج القائمة */
+  document.addEventListener("click", function () {
+    if (checkbox.checked) {
+      checkbox.checked = false;
+    }
+  });
+
 });
 </script>
-</html>
 </body>
-
 </html>
+
 
 
 
