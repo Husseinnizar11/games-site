@@ -923,9 +923,28 @@ body.dark-mode .side_bar ul a{
       initPagination();
     };
   </script>
+  <script>
+document.addEventListener("click", function(e) {
+  const sidebar = document.querySelector(".side_bar");
+  const menuButton = document.querySelector(".bars");
+  const checkbox = document.getElementById("check");
+
+  // إذا القائمة مفتوحة
+  if (checkbox.checked) {
+    // وإذا الضغط ليس داخل القائمة ولا على زر القائمة
+    if (
+      !sidebar.contains(e.target) &&
+      !menuButton.contains(e.target)
+    ) {
+      checkbox.checked = false; // إغلاق القائمة
+    }
+  }
+});
+</script>
 </body>
 
 </html>
+
 
 
 
