@@ -544,19 +544,16 @@
       <button class="search-button"><i class="fas fa-search"></i></button>
     </div>
   </div>
-  
-  <div class="top-right-buttons">
-    <label class="top-right-button" onclick="toggleDarkMode()">
-      <i class="fas fa-moon"></i>
-    </label>
-  </div>
-  
-  <input type="checkbox" id="check">
-  <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
-  <div class="side_bar">
+  <input type="checkbox" id="check" hidden>
+
+<label for="check" class="overlay"></label>
+
+<div class="side_bar">
   <div class="title">
     <div class="logo">ULPS2</div>
-    <label class="button cancel"><i class="fas fa-times"></i></label>
+    <label for="check" class="button cancel">
+      <i class="fas fa-times"></i>
+    </label>
   </div>
 
   <ul>
@@ -574,112 +571,103 @@
 </div>
 
 <style>
-/* ===== Sidebar ===== */
+/* overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 998;
+}
+
+/* sidebar base */
 .side_bar {
+  position: fixed;
+  top: 0;
+  right: -260px;
   width: 250px;
-  background: #111;
-  color: #fff;
+  height: 100vh;
   padding: 20px;
+  transition: 0.3s;
+  z-index: 999;
   direction: rtl;
-  text-align: right;
   font-family: Arial, sans-serif;
 }
 
-/* ===== Title ===== */
+/* فتح */
+#check:checked ~ .side_bar {
+  right: 0;
+}
+#check:checked ~ .overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* عناصر عامة */
 .title {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
 }
-
-/* ===== Menu ===== */
+.button.cancel {
+  cursor: pointer;
+  font-size: 22px;
+}
 ul {
   list-style: none;
   padding: 0;
   margin: 25px 0;
 }
-
 ul li {
   margin: 16px 0;
 }
-
-/* ===== Button ===== */
 ul li a {
-  position: relative;
-  background: #fff;
-  color: #000 !important;   /* حل المشكلة */
   padding: 14px 16px;
   border-radius: 12px;
   text-decoration: none;
   display: flex;
-  align-items: center;
   gap: 10px;
-  font-size: 16px;
-  overflow: hidden;
-  z-index: 1;
 }
 
-ul li a span,
-ul li a i {
-  color: #000 !important;   /* إجبار النص والأيقونات */
+/* 🌞 Light Mode */
+@media (prefers-color-scheme: light) {
+  .side_bar {
+    background: #ffffff;
+    color: #000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+
+  ul li a {
+    background: #f2f2f2;
+    color: #000;
+  }
+
+  .button.cancel {
+    color: #000;
+  }
 }
 
-/* ===== Animated Gradient Border ===== */
-ul li a::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  padding: 2px;
-  border-radius: 12px;
-  background: linear-gradient(
-    270deg,
-    #00ff99,
-    #ffcc00,
-    #ff6600,
-    #ff0066,
-    #00ff99
-  );
-  background-size: 400% 400%;
-  animation: gradientMove 6s linear infinite;
-  -webkit-mask:
-    linear-gradient(#fff 0 0) content-box,
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-}
+/* 🌙 Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .side_bar {
+    background: #111;
+    color: #fff;
+    box-shadow: 0 0 25px rgba(255,255,255,0.1);
+  }
 
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 400% 50%; }
-}
+  ul li a {
+    background: #1f1f1f;
+    color: #fff;
+  }
 
-/* ===== Social Icons ===== */
-.media_icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 25px;
-}
-
-.media_icons a {
-  font-size: 26px;
-  transition: transform 0.2s;
-}
-
-.media_icons a:hover {
-  transform: scale(1.2);
-}
-
-.instagram i { color: #E1306C; }
-.youtube i { color: #FF0000; }
-.tiktok i {
-  color: #69C9D0;
-  text-shadow: 1px 0 #EE1D52, -1px 0 #000;
+  .button.cancel {
+    color: #fff;
+  }
 }
 </style>
   
@@ -955,6 +943,7 @@ ul li a::before {
 </body>
 
 </html>
+
 
 
 
