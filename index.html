@@ -535,34 +535,51 @@
                   inset -3px -3px 7px #44a8e0;
     }
     /* ===== تعديل أزرار القائمة الجانبية (حسب الصورة) ===== */
+.sid/* ===== إطار نيون مستطيل للقائمة الجانبية ===== */
 .side_bar ul a{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #ffffff;
-  border: 2px solid #ff2da1;
+  position: relative;
+  overflow: hidden;
+  background: #ecf0f3;
   border-radius: 16px;
-  padding: 14px 18px;
-  margin: 14px 10px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #000;
-  box-shadow: none;
+  z-index: 1;
 }
 
-.side_bar ul a i{
-  font-size: 22px;
-  margin: 0;
+/* إطار النيون */
+.side_bar ul a::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    #ff0080,
+    #ff8c00,
+    #ffe600,
+    #00ff88,
+    #00cfff,
+    #7a00ff,
+    #ff0080
+  );
+  background-size: 400%;
+  animation: neonMove 6s linear infinite;
+
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
 }
 
-.side_bar ul a:hover{
-  color: #000;
+/* حركة النيون */
+@keyframes neonMove{
+  0%{ background-position: 0% }
+  100%{ background-position: 400% }
 }
 
+/* Dark Mode */
 body.dark-mode .side_bar ul a{
   background: #1a1a1a;
-  color: #fff;
-  border-color: #ff2da1;
 }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -898,6 +915,7 @@ body.dark-mode .side_bar ul a{
 </body>
 
 </html>
+
 
 
 
