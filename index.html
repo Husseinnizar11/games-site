@@ -568,9 +568,9 @@
   </ul>
   
   <div class="media_icons">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
-    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+    <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
   </div>
 </div>
 
@@ -580,7 +580,7 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 20px;
-  direction: rtl; /* الكتابة من اليمين لليسار */
+  direction: rtl;
   text-align: right;
   font-family: Arial, sans-serif;
 }
@@ -617,20 +617,33 @@
 
 .side_bar ul li a i {
   font-size: 20px;
-  min-width: 25px; /* ليكون هناك مساحة موحدة لكل أيقونة */
+  min-width: 25px;
   text-align: center;
 }
 
 .side_bar .media_icons {
   display: flex;
-  justify-content: flex-start; /* أيقونات وسائل التواصل على الجانب الأيمن */
+  justify-content: flex-start;
   gap: 15px;
   margin-top: 20px;
 }
 
+/* ألوان أيقونات وسائل التواصل */
+.side_bar .media_icons a.instagram i {
+  color: #E1306C; /* لون انستغرام */
+}
+
+.side_bar .media_icons a.youtube i {
+  color: #FF0000; /* لون يوتيوب */
+}
+
+.side_bar .media_icons a.tiktok i {
+  color: #69C9D0; /* لون تيك توك أزرق */
+  text-shadow: 1px 0 #EE1D52, -1px 0 #000000; /* يعطي تأثير شعار تيك توك */
+}
+
 .side_bar .media_icons a {
-  color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   transition: transform 0.2s;
 }
 
@@ -911,6 +924,7 @@
 </body>
 
 </html>
+
 
 
 
