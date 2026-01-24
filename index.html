@@ -924,9 +924,32 @@ body.dark-mode .side_bar ul a{
     };
   </script>
 
+
+  <script>
+document.addEventListener("click", function (e) {
+  const sidebar = document.querySelector(".side_bar");
+  const menuButton = document.querySelector(".bars");
+  const checkbox = document.getElementById("check");
+
+  if (!sidebar || !menuButton || !checkbox) return;
+
+  if (checkbox.checked) {
+    if (
+      !sidebar.contains(e.target) &&
+      !menuButton.contains(e.target)
+    ) {
+      checkbox.checked = false;
+    }
+  }
+});
+</script>
+
+</body>
+</html>
 </body>
 
 </html>
+
 
 
 
