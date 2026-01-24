@@ -1,18 +1,19 @@
+// ملف البيانات – لا يحتوي أي كود تصميم
 const games = [
   {
-    name: "God of War",
+    name: "مرحبا",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "لعبة أكشن مشهورة من سوني",
-    size: "15GB",
+    description: "لعبة مغامرات مثيرة في عالم خيالي",
+    size: "1.2GB",
     format: "ISO",
-    download: "https://linkvertise.com/xxxx"
+    download: "#"
   },
   {
-    name: "مغامرة",
+    name: "لعبة",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "مغامرة في الغابة مع أصدقائك",
-    size: "500MB",
-    format: "EXE",
-    download: "https://linkvertise.com/yyyy"
+    description: "لعبة استراتيجية تحتاج إلى تفكير عميق",
+    size: "850MB",
+    format: "RAR",
+    download: "#"
   }
 ];
