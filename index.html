@@ -923,50 +923,5 @@ body.dark-mode .side_bar ul a{
       initPagination();
     };
   </script>
-
-  
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  const sidebar = document.querySelector(".side_bar");
-  const menuButton = document.querySelector(".bars");
-  const checkbox = document.getElementById("check");
-
-  if (!sidebar || !menuButton || !checkbox) return;
-
-  /* منع الإغلاق عند الضغط داخل القائمة */
-  sidebar.addEventListener("click", function (e) {
-    e.stopPropagation();
-  });
-
-  /* منع الإغلاق عند الضغط على زر القائمة */
-  menuButton.addEventListener("click", function (e) {
-    e.stopPropagation();
-  });
-
-  /* الإغلاق عند الضغط خارج القائمة */
-  document.addEventListener("click", function () {
-    if (checkbox.checked) {
-      checkbox.checked = false;
-    }
-  });
-
-});
-</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
