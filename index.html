@@ -925,7 +925,8 @@ body.dark-mode .side_bar ul a{
   </script>
 
 
-  <script>
+  
+<script>
 document.addEventListener("click", function (e) {
   const sidebar = document.querySelector(".side_bar");
   const menuButton = document.querySelector(".bars");
@@ -933,11 +934,11 @@ document.addEventListener("click", function (e) {
 
   if (!sidebar || !menuButton || !checkbox) return;
 
+  // ⛔ تجاهل الضغط على زر القائمة نفسه
+  if (menuButton.contains(e.target)) return;
+
   if (checkbox.checked) {
-    if (
-      !sidebar.contains(e.target) &&
-      !menuButton.contains(e.target)
-    ) {
+    if (!sidebar.contains(e.target)) {
       checkbox.checked = false;
     }
   }
@@ -949,6 +950,7 @@ document.addEventListener("click", function (e) {
 </body>
 
 </html>
+
 
 
 
