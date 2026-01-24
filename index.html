@@ -534,6 +534,36 @@
       box-shadow: inset 3px 3px 5px #2980b9,
                   inset -3px -3px 7px #44a8e0;
     }
+    /* ===== تعديل أزرار القائمة الجانبية (حسب الصورة) ===== */
+.side_bar ul a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 2px solid #ff2da1;
+  border-radius: 16px;
+  padding: 14px 18px;
+  margin: 14px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  box-shadow: none;
+}
+
+.side_bar ul a i{
+  font-size: 22px;
+  margin: 0;
+}
+
+.side_bar ul a:hover{
+  color: #000;
+}
+
+body.dark-mode .side_bar ul a{
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #ff2da1;
+}
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
@@ -560,15 +590,34 @@
       <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
     </div>
     <ul>
-      <li><a href="#"><i class="fas fa-qrcode"></i>الرئيسية</a></li>
-      <li><a href="#"><i class="fas fa-link"></i>الألعاب</a></li>
-      <li><a href="#"><i class="fas fa-stream"></i>التصنيفات</a></li>
-      <li><a href="#"><i class="fas fa-calendar-week"></i>الأحداث</a></li>
-      <li><a href="#"><i class="fas fa-question-circle"></i>حول</a></li>
-      <li><a href="#"><i class="fas fa-sliders-h"></i>الإعدادات</a></li>
-      <li><a href="#"><i class="fas fa-phone-volume"></i>اتصل بنا</a></li>
-      <li><a href="#"><i class="fas fa-comments"></i>الآراء</a></li>
-    </ul>
+  <li>
+    <a href="#">
+      <span>PS2 Games</span>
+      <i class="fas fa-qrcode"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <span>APK App</span>
+      <i class="fas fa-mobile-alt"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <span>APK Games</span>
+      <i class="fas fa-gamepad"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <span>Mario Maker Stages</span>
+      <i class="fas fa-folder"></i>
+    </a>
+  </li>
+</ul>
     <div class="media_icons">
       <a href="#"><i class="fab fa-facebook-f"></i></a>
       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -849,4 +898,5 @@
 </body>
 
 </html>
+
 
