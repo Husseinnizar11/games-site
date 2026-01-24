@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -543,7 +544,27 @@
   border-radius: 16px;
   z-index: 1;
 }
+/* ===== محاذاة النص والأيقونة داخل زر النيون ===== */
+.side_bar ul a{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* النص في المنتصف */
+  gap: 12px;
+}
 
+/* الأيقونة أقصى اليسار */
+.side_bar ul a i{
+  position: absolute;
+  left: 18px;
+  font-size: 22px;
+}
+
+/* تأكيد أن النص يبقى في الوسط */
+.side_bar ul a span{
+  text-align: center;
+  width: 100%;
+}
 /* إطار النيون */
 .side_bar ul a::before{
   content: "";
@@ -915,6 +936,7 @@ body.dark-mode .side_bar ul a{
 </body>
 
 </html>
+
 
 
 
