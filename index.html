@@ -554,23 +554,90 @@
   <input type="checkbox" id="check">
   <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
   
-  <div class="side_bar">
-    <div class="title">
-      <div class="logo">ULPS2</div>
-      <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
-    </div>
-    <ul>
-      <li><a href="#"><i class="fas fa-qrcode"></i>ps2 games</a></li>
-      <li><a href="#"><i class="fas fa-link"></i>apk app</a></li>
-      <li><a href="#"><i class="fas fa-stream"></i>apk games</a></li>
-      <li><a href="#"><i class="fas fa-calendar-week"></i>Mario Maker stages </a></li>
-    </ul>
-    <div class="media_icons">
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-TikTok"></i></a>
-    </div>
+<div class="side_bar">
+  <div class="title">
+    <div class="logo">ULPS2</div>
+    <label class="button cancel" for="check"><i class="fas fa-times"></i></label>
   </div>
+  
+  <ul>
+    <li><a href="#"><i class="fas fa-qrcode"></i><span>PS2 Games</span></a></li>
+    <li><a href="#"><i class="fas fa-mobile-alt"></i><span>APK App</span></a></li>
+    <li><a href="#"><i class="fas fa-gamepad"></i><span>APK Games</span></a></li>
+    <li><a href="#"><i class="fas fa-calendar-week"></i><span>Mario Maker Stages</span></a></li>
+  </ul>
+  
+  <div class="media_icons">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+  </div>
+</div>
+
+<style>
+.side_bar {
+  width: 250px;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 20px;
+  direction: rtl; /* الكتابة من اليمين لليسار */
+  text-align: right;
+  font-family: Arial, sans-serif;
+}
+
+.side_bar .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side_bar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.side_bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.side_bar ul li {
+  margin: 15px 0;
+}
+
+.side_bar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.side_bar ul li a i {
+  font-size: 20px;
+  min-width: 25px; /* ليكون هناك مساحة موحدة لكل أيقونة */
+  text-align: center;
+}
+
+.side_bar .media_icons {
+  display: flex;
+  justify-content: flex-start; /* أيقونات وسائل التواصل على الجانب الأيمن */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.side_bar .media_icons a {
+  color: #fff;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.side_bar .media_icons a:hover {
+  transform: scale(1.2);
+}
+</style>
   
 <div class="main-content">
   <div class="image-grid" id="gamesContainer">
@@ -844,6 +911,7 @@
 </body>
 
 </html>
+
 
 
 
