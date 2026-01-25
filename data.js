@@ -35,5 +35,5 @@ const games = [
     format: "ZIP",
     download: "#",
     category: "Mario-Maker-Stage"
-  }
+  },
 ];
