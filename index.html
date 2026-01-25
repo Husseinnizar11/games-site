@@ -694,6 +694,13 @@ body.dark-mode .side_bar ul a{
 </a>
 
   </li>
+
+      <li>
+  <a href="#" onclick="goHome()">
+    <i class="fas fa-home"></i>
+    <span>Home page</span>
+  </a>
+</li>
 </ul>
     <div class="media_icons">
       <a href="#"><i class="fab fa-tiktok"></i></a>
@@ -1027,9 +1034,29 @@ body.dark-mode .side_bar ul a{
     mainContent.classList.remove("shift");
   }
 </script>
-     
+
+<script>
+function goHome() {
+  // إلغاء أي فلترة وإظهار الكل
+  filterByCategory("all");
+
+  // الرجوع للصفحة الأولى
+  showPage(1);
+
+  // سكرول لأعلى الصفحة بسلاسة
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+  // إغلاق القائمة الجانبية (اختياري لكنه جميل)
+  closeSidebar();
+}
+</script>
+  
 </body>
 </html>
+
 
 
 
