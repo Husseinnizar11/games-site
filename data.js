@@ -1,4 +1,4 @@
-// ملف البيانات – لا يحتوي أي كود تصميم
+// ملف البيانات
 const games = [
   {
     name: "مرحبا",
@@ -6,36 +6,34 @@ const games = [
     description: "لعبة مغامرات مثيرة في عالم خيالي",
     size: "1.2GB",
     format: "ISO",
-    download: "#"
-    category: "ps2-Games"
+    download: "#",
+    category: "ps2-games"
   },
   {
-    name: "لعبة",
+    name: "لعبة استراتيجية",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
     description: "لعبة استراتيجية تحتاج إلى تفكير عميق",
     size: "850MB",
     format: "RAR",
-    download: "#"
+    download: "#",
     category: "apk-app"
-  }
-];
-{
-    name: "لعبة",
+  },
+  {
+    name: "لعبة أكشن",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "لعبة استراتيجية تحتاج إلى تفكير عميق",
-    size: "850MB",
-    format: "RAR",
-    download: "#"
-    category: "apk-Games"
-  }
-];
-{
-    name: "لعبة",
+    description: "لعبة أكشن مليئة بالإثارة",
+    size: "900MB",
+    format: "ISO",
+    download: "#",
+    category: "apk-games"
+  },
+  {
+    name: "Mario Maker Stage",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "لعبة استراتيجية تحتاج إلى تفكير عميق",
-    size: "850MB",
-    format: "RAR",
-    download: "#"
-    category: "Mario-Maker-stages "
+    description: "مراحل مميزة من لعبة ماريو",
+    size: "120MB",
+    format: "ZIP",
+    download: "#",
+    category: "mario-maker-stages"
   }
 ];
