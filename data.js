@@ -7,7 +7,7 @@ const games = [
     size: "1.2GB",
     format: "ISO",
     download: "#",
-    category: "ps2-games"
+    category: "ps2-Games"
   },
   {
     name: "لعبة استراتيجية",
@@ -25,7 +25,7 @@ const games = [
     size: "900MB",
     format: "ISO",
     download: "#",
-    category: "apk-games"
+    category: "apk-Games"
   },
   {
     name: "Mario Maker Stage",
@@ -34,6 +34,6 @@ const games = [
     size: "120MB",
     format: "ZIP",
     download: "#",
-    category: "mario-maker-stages"
+    category: "Mario-Maker-Stage"
   }
 ];
