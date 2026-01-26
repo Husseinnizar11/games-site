@@ -28,13 +28,13 @@ const games = [
     category: "apk-Games"
   },
   {
-    name: "Mario Maker Stage",
-    image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "مراحل مميزة من لعبة ماريو",
-    size: "120MB",
-    format: "ZIP",
-    download: "#",
-    category: "Mario-Maker-Stage"
+    name: "Lost in Play ",
+    image: "https://img.utdstc.com/icon/a8d/d96/a8dd96770d5128f19b25f592c94f2cc00324ebcdd59d8828d5610923502e4d7a:200",
+    description: "مراحل و الغاز جميلة",
+    size: "700MB",
+    format: "apk",
+    download: "https://cdn.topmongo.com/packages/com.snapbreak.lip/Lost_in_Play_1.0.2061_2061_4348d3.apk",
+    category: "apk-Games"
   },
   
 ];
