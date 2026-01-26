@@ -743,9 +743,9 @@ body.dark-mode .side_bar ul a{
         </tr>
       </table>
       
-      <button class="download-btn">
-        <i class="fas fa-download"></i> تحميل اللعبة
-      </button>
+      <a id="downloadBtn" class="download-btn" href="#" target="_blank">
+  تحميل اللعبة
+</a>
     </div>
   </div>
 <script src="data.js"></script>
@@ -768,7 +768,8 @@ body.dark-mode .side_bar ul a{
           '${game.name}',
           '${game.description}',
           '${game.size}',
-          '${game.format}'
+          '${game.format}',
+          '${game.download}'
         )">
         <img src="${game.image}" alt="${game.name}">
       </div>
@@ -948,17 +949,21 @@ body.dark-mode .side_bar ul a{
     });
 
     // وظيفة لعرض معلومات اللعبة في نافذة منبثقة
-    function showGameInfo(imgSrc, caption, description, size, format) {
-      const modal = document.getElementById('gameInfoModal');
-      document.getElementById('modalGameImage').src = imgSrc;
-      document.getElementById('modalGameCaption').textContent = caption;
-      document.getElementById('modalGameDescription').textContent = description;
-      document.getElementById('modalGameName').textContent = caption;
-      document.getElementById('modalGameSize').textContent = size;
-      document.getElementById('modalGameFormat').textContent = format;
-      
-      modal.style.display = 'block';
-    }
+function showGameInfo(imgSrc, caption, description, size, format, downloadLink) {
+  const modal = document.getElementById('gameInfoModal');
+
+  document.getElementById('modalGameImage').src = imgSrc;
+  document.getElementById('modalGameCaption').textContent = caption;
+  document.getElementById('modalGameDescription').textContent = description;
+  document.getElementById('modalGameName').textContent = caption;
+  document.getElementById('modalGameSize').textContent = size;
+  document.getElementById('modalGameFormat').textContent = format;
+
+  // ربط زر التحميل برابط MediaFire
+  document.getElementById("downloadBtn").href = downloadLink;
+
+  modal.style.display = 'block';
+}
 
     // وظيفة لإغلاق النافذة المنبثقة
     function closeModal() {
@@ -1059,6 +1064,7 @@ function goHome() {
   
 </body>
 </html>
+
 
 
 
