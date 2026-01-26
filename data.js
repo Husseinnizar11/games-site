@@ -36,5 +36,13 @@ const games = [
     download: "https://cdn.topmongo.com/packages/com.snapbreak.lip/Lost_in_Play_1.0.2061_2061_4348d3.apk",
     category: "apk-Games"
   },
-  
+  {
+    name: "Modern Combat 5",
+    image: "https://static.download.it/gen/modern-combat-5-100x100.png",
+    description: "حرب و اكشن",
+    size: "90MB",
+    format: "apk",
+    download: "https://cdn.topmongo.com/packages/com.gameloft.android.ANMP.GloftM5HM/Modern_Combat_5_6.0.1a_60123_7bb3ae.apks",
+    category: "apk-Games"
+  },
 ];
