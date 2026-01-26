@@ -24,7 +24,7 @@ const games = [
     description: "لعبة الغاز مليئة بالإثارة",
     size: "140MB",
     format: "apk",
-    download: "https://download.gamercdn.top/download/air.com.alikestudio.bringyouhome-v1.0.60-MOD-gamekillerapp.com.apk",
+    download: "https://www.mediafire.com/file/37xd75e8sjqiue9/Screenshot_2026-01-25-23-17-18-82_50ef9f5a0f3fc24b6f0ffc8843167fe4.jpg/file",
     category: "apk-Games"
   },
   {
