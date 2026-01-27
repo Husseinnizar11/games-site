@@ -6,7 +6,7 @@ const games = [
       description: "غنية عن التعريف سي جي gta",
     size: "2.2GB",
     format: "apk",
-    download: "https://dl.lingmod.top/app/moddroid-3.5.0.apk",
+    download: "https://file.gtsamod.com/grand-theft-auto-san-andreas-v2.11.311-mod.apk",
     category: "apk-Games"
   },
   {
