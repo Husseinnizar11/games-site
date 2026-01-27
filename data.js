@@ -3,7 +3,7 @@ const games = [
   {
     name: "gta san andreas",
     image: "https://gtamob.com/wp-content/uploads/2025/04/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%84%D8%B9%D8%A8%D8%A9-gta-%D9%84%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.webp",
-      description: "غنسة عن التعريف سي جي gta",
+      description: "غنية عن التعريف سي جي gta",
     size: "2.2GB",
     format: "apk",
     download: "https://dl.lingmod.top/app/moddroid-3.5.0.apk",
