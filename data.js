@@ -1,13 +1,13 @@
 // ملف البيانات
 const games = [
   {
-    name: "مرحبا",
-    image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "لعبة مغامرات مثيرة في عالم خيالي",
-    size: "1.2GB",
-    format: "ISO",
-    download: "#",
-    category: "ps2-Games"
+    name: "GTA: SA v2.11.311 MOD APK",
+    image: "https://gtamob.com/wp-content/uploads/2025/04/%D8%AA%D8%AD%D9%85%D9%8A%D9%84-%D9%84%D8%B9%D8%A8%D8%A9-gta-%D9%84%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D9%85%D8%AC%D8%A7%D9%86%D8%A7.webp",
+      description: "غنسة عن التعريف سي جي gta",
+    size: "2.2GB",
+    format: "apk",
+    download: "https://dl.lingmod.top/app/moddroid-3.5.0.apk",
+    category: "apk-Games"
   },
   {
     name: "لعبة استراتيجية",
