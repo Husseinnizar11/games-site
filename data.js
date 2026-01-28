@@ -11,7 +11,7 @@ const games = [
   },
   {
     name: "يخص التفعيل اوفس و وندوز",
-    image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_xYOuzdl1M5iHhYRYKO1m7PIYhphIaBs_BIGKgs_uQ&s",
     description: "MAS_AIO.cmd  يفعل اوفس و وندوز حسب الرقم المكتوب",
     size: "1MB",
     format: "RAR",
