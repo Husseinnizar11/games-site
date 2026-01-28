@@ -10,13 +10,13 @@ const games = [
     category: "apk-Games"
   },
   {
-    name: "لعبة استراتيجية",
+    name: "يخص التفعيل اوفس و وندوز",
     image: "https://cdromance.org/wp-content/uploads/2018/05/58603_front.jpg",
-    description: "لعبة استراتيجية تحتاج إلى تفكير عميق",
-    size: "850MB",
+    description: "MAS_AIO.cmd  يفعل اوفس و وندوز حسب الرقم المكتوب",
+    size: "1MB",
     format: "RAR",
-    download: "#",
-    category: "apk-app"
+    download: "https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?$format=zip",
+    category: "exe"
   },
   {
     name: "Bring You Home",
