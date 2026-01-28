@@ -18,6 +18,19 @@ const games = [
     download: "https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?$format=zip",
     category: "exe"
   },
+
+
+{
+    name: "office 2016",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKf3aWYc1tFA9VPxKM42lqus1VKeGWnbUazzcUkH3ZlA&s=10",
+    description: " اوفس عربي 2016 كامل",
+    size: "2GB",
+    format: "RAR",
+    download: "https://www.mediafire.com/file/y3mhdym14os925u/Microsoft_Office_2016_Pro_Plus%28AR%29.rar/file",
+    category: "exe"
+  },
+
+  
   {
     name: "Bring You Home",
     image: "https://liteapks.com/wp-content/uploads/2024/10/bring-you-home-150x150.webp",
