@@ -22,7 +22,7 @@ const games = [
 
 {
     name: "office 2016",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKf3aWYc1tFA9VPxKM42lqus1VKeGWnbUazzcUkH3ZlA&s=10",
+    imgSrc: "images/office.jpg",
     description: " اوفس عربي 2016 كامل",
     size: "2GB",
     format: "RAR",
