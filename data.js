@@ -58,4 +58,14 @@ const games = [
     download: "https://cdn.topmongo.com/packages/com.gameloft.android.ANMP.GloftM5HM/Modern_Combat_5_6.0.1a_60123_7bb3ae.apks",
     category: "apk-Games"
   },
+  {
+    name: "ماريو ميكر",
+        image: "https://i1.sndcdn.com/artworks-Jw6FTqJ1eAhnQOYk-6CRxmQ-t500x500.jpg",
+    description: " ماريو ميكر للجوال",
+    size: "236MB",
+    format: "apk",
+    download: "https://www.mediafire.com/file/n3y1pcxwwhe0mgt/SMM_WE_3.5.1_Keep_Aspect_Ratio.apk/file",
+    category: "apk-Games"
+  },
+
 ];
