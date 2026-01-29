@@ -59,7 +59,7 @@ const games = [
     category: "apk-Games"
   },
   {
-    name: "ماريو ميكر",
+    name: "mario maker",
         image: "https://i1.sndcdn.com/artworks-Jw6FTqJ1eAhnQOYk-6CRxmQ-t500x500.jpg",
     description: " ماريو ميكر للجوال",
     size: "236MB",
