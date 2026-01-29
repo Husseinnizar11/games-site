@@ -68,4 +68,14 @@ const games = [
     category: "apk-Games"
   },
 
+   {
+    name: "minecraft",
+        image: "https://i1.sndcdn.com/artworks-Jw6FTqJ1eAhnQOYk-6CRxmQ-t500x500.jpg",
+    description: " ماين كرافت للجوال",
+    size: "588MB",
+    format: "apk",
+    download: "https://www.mediafire.com/file/k6s3u04jo6xc8bu/minecraft-1.21.132.1-by-Baybars.apk/file",
+    category: "apk-Games"
+  },
+
 ];
