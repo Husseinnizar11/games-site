@@ -778,7 +778,7 @@ body.dark-mode .side_bar ul a{
           '${game.format}',
           '${game.download}'
         )">
-        <img src="${game.image}" alt="${game.name}">
+        <img src="${game.imgSrc}" alt="${game.name}"> loading="lazy"
       </div>
       <div class="img-caption">${game.name}</div>
     `;
@@ -1071,6 +1071,7 @@ function goHome() {
   
 </body>
 </html>
+
 
 
 
