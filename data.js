@@ -78,4 +78,15 @@ const games = [
     category: "apk-Games"
   },
 
+  {
+    name: "among us",
+        image: "https://img.techylist.com/api/resize?url=https://techylist.com/wp-content/uploads/2022/04/Among-Us.jpeg&width=160",
+    description: "امونغ اس",
+    size: "588MB",
+    format: "apk",
+    download: "https://cdn.chadshost.com/downloads/Among_Us_2025.12.11_030d6f6e_techylist.com.apk",
+    category: "apk-Games"
+  },
+
+  
 ];
