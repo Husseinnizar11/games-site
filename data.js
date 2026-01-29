@@ -33,7 +33,7 @@ const games = [
   
   {
     name: "Bring You Home",
-    image: "https://liteapks.com/wp-content/uploads/2024/10/bring-you-home-150x150.webp",
+    imgSrc: "images/Bring.jpg",
     description: "لعبة الغاز مليئة بالإثارة",
     size: "140MB",
     format: "apk",
