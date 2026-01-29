@@ -11,7 +11,7 @@ const games = [
   },
   {
     name: "تفعيل الكل في1",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_xYOuzdl1M5iHhYRYKO1m7PIYhphIaBs_BIGKgs_uQ&s",
+   imgSrc: "images/key.png",
     description: "MAS_AIO.cmd  يفعل اوفس و وندوز حسب الرقم المكتوب",
     size: "1MB",
     format: "RAR",
