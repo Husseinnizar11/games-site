@@ -70,7 +70,7 @@ const games = [
 
    {
     name: "minecraft",
-        image: "https://i1.sndcdn.com/artworks-Jw6FTqJ1eAhnQOYk-6CRxmQ-t500x500.jpg",
+        image: "https://www.bluestacks.com/blog/updates/minecraft/mc-features-bug-fixes-may-2021-en.html",
     description: " ماين كرافت للجوال",
     size: "588MB",
     format: "apk",
