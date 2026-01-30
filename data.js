@@ -51,7 +51,7 @@ const games = [
   },
   {
     name: "Modern Combat 5",
-    image: "https://static.download.it/gen/modern-combat-5-100x100.png",
+    imgSrc: "images/mc.webp",
     description: "حرب و اكشن",
     size: "90MB",
     format: "apk",
