@@ -42,7 +42,7 @@ const games = [
   },
   {
     name: "Lost in Play ",
-    image: "https://img.utdstc.com/icon/a8d/d96/a8dd96770d5128f19b25f592c94f2cc00324ebcdd59d8828d5610923502e4d7a:200",
+    imgSrc: "images/lost.jpg",
     description: "مراحل و الغاز جميلة",
     size: "700MB",
     format: "apk",
