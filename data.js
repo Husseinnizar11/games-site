@@ -13,7 +13,7 @@ const games = [
 
  {
     name: " Ratchet & Clank  ",
-    imgSrc: "images/Ratchet & Clank.jpg",
+    imgSrc: "images/Ratchet&Clank.jpg",
     description: " راتشيت آند كلانك: غوينغ كوماندو ",
     size: " 3.42GB ",
     format: " ul ",
