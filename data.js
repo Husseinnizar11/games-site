@@ -3,7 +3,7 @@ const games = [
 
   {
     name: "Ghost Rider",
-    imgSrc: "images/MetalGearSolid.jpg",
+    imgSrc: "images/GhostRider.jpg",
       description: "الشبح الراكب",
     size: "2.3GB",
     format: "ul",
