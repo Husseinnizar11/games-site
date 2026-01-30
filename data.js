@@ -1,6 +1,19 @@
 // ملف البيانات
 const games = [
 
+
+ {
+    name: " Ratchet & Clank  ",
+    imgSrc: "images/Ratchet & Clank.jpg",
+    description: " راتشيت آند كلانك: غوينغ كوماندو ",
+    size: " 3.42GB ",
+    format: " ul ",
+    download: "https://linkjust.com/gcSpOM4y8krEYGNv5S",
+    category: "ps2-Games"
+  }, 
+
+  
+
   {
     name: "Ghost Rider",
     imgSrc: "images/GhostRider.jpg",
