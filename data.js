@@ -2,6 +2,16 @@
 const games = [
 
   {
+    name: "Ghost Rider",
+    imgSrc: "images/MetalGearSolid.jpg",
+      description: "الشبح الراكب",
+    size: "2.3GB",
+    format: "ul",
+    download: "https://linkjust.com/nklrqeakE0Vd",
+    category: "ps2-Games"
+  },
+
+  {
     name: "Metal Gear Solid 2",
     imgSrc: "images/MetalGearSolid.jpg",
       description: "ميتال جير سوليد 2",
