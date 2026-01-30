@@ -1,6 +1,14 @@
 // ملف البيانات
 const games = [
-
+ {
+    name: "shadow of the colossus ",
+    imgSrc: "images/Shadow.jpeg",
+      description: "ظل العملاق",
+    size: "77mb",
+    format: "apk",
+    download: "https://linkjust.com/jvk9F",
+    category: "ps2-Games"
+  },
  {
     name: "Subway Surfers",
     imgSrc: "images/su.jpg",
