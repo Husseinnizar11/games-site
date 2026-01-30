@@ -1,6 +1,16 @@
 // ملف البيانات
 const games = [
 
+  {
+    name: "Metal Gear Solid 2",
+    imgSrc: "images/MetalGearSolid.jpg",
+      description: "ميتال جير سوليد 2",
+    size: "3.2GB",
+    format: "ul",
+    download: "https://linkjust.com/bHiRbuH8OGJoGukzfqoZE",
+    category: "ps2-Games"
+  },
+
  {
     name: "Metal Gear Solid 3",
     imgSrc: "images/Metal-Gear-Solid-3-Snake-Eater-1.jpg",
