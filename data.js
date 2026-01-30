@@ -1,5 +1,16 @@
 // ملف البيانات
 const games = [
+
+ {
+    name: "Subway Surfers",
+    imgSrc: "images/su.jpg",
+      description: "لعبة القطار",
+    size: "2.2GB",
+    format: "apk",
+    download: "https://www.alsindibad.com/download/get/?c0fb78b96fc8bb1134205cf3772a5341fa",
+    category: "apk-Games"
+  },
+  
   {
     name: "gta san andreas",
     imgSrc: "images/gta-sa.webp",
