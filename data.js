@@ -1,5 +1,16 @@
 // ملف البيانات
 const games = [
+
+ {
+    name: "Ben 10",
+    imgSrc: "images/Ben-10.jpg",
+      description: "بن 10",
+    size: "1.77GB",
+    format: "ul",
+    download: "https://linkjust.com/sU5",
+    category: "ps2-Games"
+  },
+ 
  {
     name: "shadow of the colossus ",
     imgSrc: "images/Shadow.jpeg",
