@@ -2,6 +2,17 @@
 const games = [
 
  {
+    name: "Metal Gear Solid 3",
+    imgSrc: "images/Metal-Gear-Solid-3-Snake-Eater-1.jpg",
+      description: "ميتال جير سوليد 3",
+    size: "3.36GB",
+    format: "ul",
+    download: "https://linkjust.com/bYNAN3xXipMXUnMTpmdtoLef",
+    category: "ps2-Games"
+  },
+ 
+
+ {
     name: "Ben 10",
     imgSrc: "images/Ben-10.jpg",
       description: "بن 10",
