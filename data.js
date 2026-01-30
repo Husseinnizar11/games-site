@@ -80,7 +80,7 @@ const games = [
 
   {
     name: "among us",
-        image: "https://img.techylist.com/api/resize?url=https://techylist.com/wp-content/uploads/2022/04/Among-Us.jpeg&width=160",
+   imgSrc: "images/am.png",
     description: "امونغ اس",
     size: "588MB",
     format: "apk",
