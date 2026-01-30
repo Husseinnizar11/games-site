@@ -7,7 +7,7 @@ const games = [
       description: "لعبة القطار",
     size: "77mb",
     format: "apk",
-    download: "https://www.alsindibad.com/download/get/?c0fb78b96fc8bb1134205cf3772a5341fa",
+    download: "https://up.apkbaba.com/games/Subway-Surfers-3.8.0-Mod(Apkbaba.com).apk",
     category: "apk-Games"
   },
   
