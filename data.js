@@ -70,7 +70,7 @@ const games = [
 
    {
     name: "minecraft",
-        image: "https://coimobile.io/uploads/2024/12/minecraft-apk-coimobile.jpg",
+   imgSrc: "images/mi.png",
     description: " ماين كرافت للجوال",
     size: "588MB",
     format: "apk",
