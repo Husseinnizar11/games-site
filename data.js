@@ -1,6 +1,15 @@
 // ملف البيانات
 const games = [
 
+{
+    name: " Sengoku Basara 2 Heroes  ",
+    imgSrc: "images/Sengoku Basara 2 Heroes.jpg",
+    description: " سينغوكو باسارا 2 هيروز",
+    size: " 3.83GB ",
+    format: " ul ",
+    download: "https://linkjust.com/K4DdtJsmScrClc6q",
+    category: "ps2-Games"
+  }, 
 
  {
     name: " Ratchet & Clank  ",
