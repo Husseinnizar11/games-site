@@ -5,7 +5,7 @@ const games = [
     name: "Subway Surfers",
     imgSrc: "images/su.jpg",
       description: "لعبة القطار",
-    size: "2.2GB",
+    size: "77mb",
     format: "apk",
     download: "https://www.alsindibad.com/download/get/?c0fb78b96fc8bb1134205cf3772a5341fa",
     category: "apk-Games"
@@ -93,7 +93,7 @@ const games = [
     name: "among us",
    imgSrc: "images/am.png",
     description: "امونغ اس",
-    size: "588MB",
+    size: "687MB",
     format: "apk",
     download: "https://cdn.chadshost.com/downloads/Among_Us_2025.12.11_030d6f6e_techylist.com.apk",
     category: "apk-Games"
