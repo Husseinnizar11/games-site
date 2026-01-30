@@ -4,8 +4,8 @@ const games = [
     name: "shadow of the colossus ",
     imgSrc: "images/Shadow.jpeg",
       description: "ظل العملاق",
-    size: "77mb",
-    format: "apk",
+    size: "2.3GB",
+    format: "ul",
     download: "https://linkjust.com/jvk9F",
     category: "ps2-Games"
   },
