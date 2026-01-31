@@ -1,8 +1,8 @@
 // ملف البيانات
 const games = [
 {
-name: " Sonic Unleashed  ",
-imgSrc: "images/SonicUnleashed.jpg",
+name: "Sonic Unleashed",
+imgSrc:"images/SonicUnleashed.jpg",
 description: " سونيك أنليشد",
 size: " 2.33GB ",
 format: " ul ",
@@ -10,8 +10,8 @@ download: "https://linkjust.com/2bas7JNvkWe47HayvdiKHXqzl",
 category: "ps2-Games"
 },
 {
-name: " Sengoku Basara 2 Heroes  ",
-imgSrc: "images/Sengoku Basara 2 Heroes.jpg",
+name: "Sengoku Basara 2 Heroes",
+imgSrc:"images/Sengoku Basara 2 Heroes.jpg",
 description: " سينغوكو باسارا 2 هيروز",
 size: " 3.83GB ",
 format: " ul ",
@@ -19,8 +19,8 @@ download: "https://linkjust.com/K4DdtJsmScrClc6q",
 category: "ps2-Games"
 },
 {
-name:  " Ratchet  & Clank   ",
-imgSrc:  "images/Ratchet&Clank.jpg ",
+name:  "Ratchet  & Clank",
+imgSrc:"images/Ratchet&Clank.jpg",
 description:  " راتشيت آند كلانك: غوينغ كوماندو  ",
 size:  " 3.42GB  ",
 format:  " ul  ",
@@ -29,7 +29,7 @@ category:  "ps2-Games "
 },
 {
 name: "Ghost Rider",
-imgSrc: "images/GhostRider.jpg",
+imgSrc:"images/GhostRider.jpg",
 description: "الشبح الراكب",
 size: "2.3GB",
 format: "ul",
@@ -64,8 +64,8 @@ download: "https://linkjust.com/sU5",
 category: "ps2-Games"
 },
 {
-name:  "shadow of the colossus  ",
-imgSrc:  "images/Shadow.jpeg ",
+name:  "shadow of the colossus",
+imgSrc:"images/Shadow.jpeg",
 description:  "ظل العملاق ",
 size:  "2.3GB ",
 format:  "ul ",
