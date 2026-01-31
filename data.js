@@ -226,7 +226,7 @@ download: "https://linkjust.com/vhMF95qtnlVs",
 category: "ps2-Games"
 },
 {
-name: " Conflict: Desert Storm 2 ps2 ul  ",
+name: " Conflict: Desert Storm2 ",
 imgSrc: "images/ConflictDesertStorm2.jpg",
 description: "Conflict: Desert Storm 2 ps2 ul",
 size: "",
@@ -235,7 +235,7 @@ download: "https://linkjust.com/5JJ",
 category: "ps2-Games"
 },
 {
-name: " Prince of Persia ps2 ul  ",
+name: " Prince of Persia  ",
 imgSrc: "images/PrinceOfPersia.jpg",
 description: "Prince of Persia ps2 ul",
 size: "",
@@ -244,10 +244,10 @@ download: "https://linkjust.com/dO6VgWPQaD6kN6XuWQvDCPyKG1v",
 category: "ps2-Games"
 },
 {
-name: " tekken5 ps2 ul  ",
+name: " tekken5 ",
 imgSrc: "images/Tekken5.jpg",
 description: "tekken5 ps2 ul",
-size: "",
+size: "3.73GB",
 format: " ul ",
 download: "https://linkjust.com/XgTsvc",
 category: "ps2-Games"
