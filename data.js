@@ -142,7 +142,7 @@ description:  " ماريو ميكر للجوال ",
 size:  "236MB ",
 format:  "apk ",
 download:  "https://www.mediafire.com/file/n3y1pcxwwhe0mgt/SMM_WE_3.5.1_Keep_Aspect_Ratio.apk/file",
-category:  "apk-Games"
+category: "apk-Games"
 },
 {
 name: "minecraft",
