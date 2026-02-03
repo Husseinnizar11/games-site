@@ -24,8 +24,8 @@ imgSrc:"images/Ratchet&Clank.jpg",
 description:  " راتشيت آند كلانك: غوينغ كوماندو  ",
 size:  " 3.42GB  ",
 format:  " ul  ",
-download:  "https://linkjust.com/gcSpOM4y8krEYGNv5S ",
-category:  "ps2-Games "
+download:  "https://linkjust.com/gcSpOM4y8krEYGNv5S",
+category:  "ps2-Games"
 },
 {
 name: "Ghost Rider",
@@ -69,8 +69,8 @@ imgSrc:"images/Shadow.jpeg",
 description:  "ظل العملاق ",
 size:  "2.3GB ",
 format:  "ul ",
-download:  "https://linkjust.com/jvk9F ",
-category:  "ps2-Games "
+download:  "https://linkjust.com/jvk9F",
+category:  "ps2-Games"
 },
 {
 name:  "Subway Surfers ",
@@ -78,7 +78,7 @@ imgSrc:  "images/su.jpg ",
 description:  "لعبة القطار ",
 size:  "77mb ",
 format:  "apk",
-download:  "https://up.apkbaba.com/games/Subway-Surfers-3.8.0-Mod(Apkbaba.com).apk ",
+download:  "https://up.apkbaba.com/games/Subway-Surfers-3.8.0-Mod(Apkbaba.com).apk",
 category:  "apk-Games"
 },
 {
@@ -87,8 +87,8 @@ imgSrc:  "images/gta-sa.webp ",
 description:  "غنية عن التعريف سي جي gta ",
 size:  "2.2GB ",
 format:  "apk ",
-download:  "https://file.gtsamod.com/grand-theft-auto-san-andreas-v2.11.311-mod.apk ",
-category:  "apk-Games "
+download:  "https://file.gtsamod.com/grand-theft-auto-san-andreas-v2.11.311-mod.apk",
+category:  "apk-Games"
 },
 {
 name:  "تفعيل الكل في1 ",
@@ -96,8 +96,8 @@ imgSrc:  "images/key.png ",
 description:  "MAS_AIO.cmd  يفعل اوفس و وندوز حسب الرقم المكتوب ",
 size:  "1MB ",
 format:  "RAR ",
-download:  "https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?$format=zip ",
-category:  "exe "
+download:  "https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?$format=zip",
+category:  "exe"
 },
 {
 name: "office 2016",
@@ -114,8 +114,8 @@ imgSrc:  "images/Bring.jpg ",
 description:  "لعبة الغاز مليئة بالإثارة ",
 size:  "140MB ",
 format:  "apk ",
-download:  "https://cdn.topmongo.com/packages/air.com.alikestudio.bringyouhome/Bring_You_Home_1.0.60_1000060_ad1727.apk ",
-category:  "apk-Games "
+download:  "https://cdn.topmongo.com/packages/air.com.alikestudio.bringyouhome/Bring_You_Home_1.0.60_1000060_ad1727.apk",
+category:  "apk-Games"
 },
 {
 name:  "Lost in Play  ",
@@ -123,8 +123,8 @@ imgSrc:  "images/lost.jpg ",
 description:  "مراحل و الغاز جميلة ",
 size:  "700MB ",
 format:  "apk ",
-download:  "https://cdn.topmongo.com/packages/com.snapbreak.lip/Lost_in_Play_1.0.2061_2061_4348d3.apk ",
-category:  "apk-Games "
+download:  "https://cdn.topmongo.com/packages/com.snapbreak.lip/Lost_in_Play_1.0.2061_2061_4348d3.apk",
+category:  "apk-Games"
 },
 {
 name:  "Modern Combat 5 ",
@@ -132,8 +132,8 @@ imgSrc:  "images/mc.webp ",
 description:  "حرب و اكشن ",
 size:  "90MB ",
 format:  "apk ",
-download:  "https://cdn.topmongo.com/packages/com.gameloft.android.ANMP.GloftM5HM/Modern_Combat_5_6.0.1a_60123_7bb3ae.apks ",
-category:  "apk-Games "
+download:  "https://cdn.topmongo.com/packages/com.gameloft.android.ANMP.GloftM5HM/Modern_Combat_5_6.0.1a_60123_7bb3ae.apks",
+category:  "apk-Games"
 },
 {
 name:  "mario maker ",
@@ -141,8 +141,8 @@ imgSrc:  "images/smm.png ",
 description:  " ماريو ميكر للجوال ",
 size:  "236MB ",
 format:  "apk ",
-download:  "https://www.mediafire.com/file/n3y1pcxwwhe0mgt/SMM_WE_3.5.1_Keep_Aspect_Ratio.apk/file ",
-category:  "apk-Games "
+download:  "https://www.mediafire.com/file/n3y1pcxwwhe0mgt/SMM_WE_3.5.1_Keep_Aspect_Ratio.apk/file",
+category:  "apk-Games"
 },
 {
 name: "minecraft",
@@ -185,9 +185,9 @@ name: " wwe 2022  ",
 imgSrc: "images/Wwe2022.jpg",
 description: "wwe 2022",
 size: "",
-format: "RAR",
+format: "ul",
 download: "https://linkjust.com/deJuX6WZt4UpZB7zFG",
-category: "other"
+category: "ps2-Games"
 },
 {
 name: " Prince of Persia: The Two Thrones  ",
@@ -199,7 +199,7 @@ download: "https://linkjust.com/z4g8I8Bb",
 category: "ps2-Games"
 },
 {
-name: " Hitman 2  ",
+name: " Hitman 2",
 imgSrc: "images/Hitman2.jpg",
 description: "Hitman 2",
 size: "",
