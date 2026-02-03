@@ -77,9 +77,9 @@ name:  "Subway Surfers ",
 imgSrc:  "images/su.jpg ",
 description:  "لعبة القطار ",
 size:  "77mb ",
-format:  "apk ",
+format:  "apk",
 download:  "https://up.apkbaba.com/games/Subway-Surfers-3.8.0-Mod(Apkbaba.com).apk ",
-category:  "apk-Games "
+category:  "apk-Games"
 },
 {
 name:  "gta san andreas ",
