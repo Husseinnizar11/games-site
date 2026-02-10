@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://husseinnizar11.github.io/games-site/sitemap.xml
